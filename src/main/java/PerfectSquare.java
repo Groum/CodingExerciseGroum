@@ -25,6 +25,10 @@ public class PerfectSquare {
 
         System.out.println("The following numbers are Perfect Square from your list");
         evenNumbers.forEach(System.out::println);
+        if (evenNumbers.isEmpty())
+        {
+            System.out.println("No Perfect numbers found");
+        }
 
         return evenNumbers;
 
